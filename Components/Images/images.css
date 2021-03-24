@@ -1,0 +1,21 @@
+/* resposive-img */
+.responsive-img{
+    max-width: 100%;
+    height:auto;
+    width:1200px;
+}
+.res-text{
+    font-size:40px;
+    position: relative;
+    margin-left:-10px
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+}
+
+/* round-img */
+.round-img{
+    border-radius: 50%;
+    width:350px;
+}

@@ -1,0 +1,45 @@
+/* cards */
+.cart-versions {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart {
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 100%;
+    font-size: 10px;
+}
+
+.img-contents {
+    background: white;
+    width: 100%;
+    max-width: 220px;
+    color: black;
+}
+
+.img-size {
+    width: 100%;
+}
+
+.rs99 {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 0.8em;
+}
+
+.off {
+    color: orange;
+    font-size: 0.9em
+}
+
+.add-to-chart-btn {
+    background-color: pink;
+    color: white;
+    border: 0px;
+    padding: 0.5rem;
+    cursor: pointer;
+    align-self: center;
+    border: 0;
+    border-radius: 9px;
+}

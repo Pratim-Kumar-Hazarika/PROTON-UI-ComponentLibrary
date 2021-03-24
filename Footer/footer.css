@@ -1,0 +1,52 @@
+/**footer**/
+.style-footer {
+    font-family: 'Open Sans';
+}
+
+.hr {
+    border-top: 0.1px solid var(--bg-background);
+}
+
+.footer {
+    background-color: black;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: rgb(228, 227, 227);
+
+}
+
+.footer .link {
+    color: var(--bg-white);
+}
+
+.footer ul {
+    padding-inline-start: 0rem;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.fab {
+    font-size: 2rem;
+}
+
+.h1-tag {
+    color: var(--bg-white);
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+    font-size: 1.4rem;
+}
+
+.fab {
+    color: var(--bg-pink);
+    margin: 10px 0;
+}

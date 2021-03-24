@@ -1,0 +1,58 @@
+@import url('../Header/header.css');
+
+/* MediaQueries */
+@media only screen and (max-width: 600px) {
+    .main-content-header {
+        width: 100%;
+        padding: 0 2%;
+    }
+}
+
+@media only screen and (max-width: 998px) {
+    h1 {
+        font-size: 200%
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 180%
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .slideShow-icon {
+        display: inline-block;
+        color: #fff;
+        float: right;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+
+    .main-nav {
+        float: left;
+    }
+
+    .main-nav li {
+        display: block;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .logo {
+        margin-top: 30px;
+        color: var(--bg-white);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .btn-full {
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 160%;
+    }
+}

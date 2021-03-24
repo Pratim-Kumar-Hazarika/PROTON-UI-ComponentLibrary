@@ -1,0 +1,11 @@
+@import url('../NavBarLeft/navbar.css');
+/* PROTON-UI */
+.color-change{
+    animation : colorchange 1s infinite;
+}
+@keyframes colorchange{
+    0%{color: var(--bg-red);}
+    25%{color:var(--bg-background);}
+    50%{color:var(--bg-white);}
+    100%{color:var(--bg-pink)}
+}
