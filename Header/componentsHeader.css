@@ -8,7 +8,9 @@
   }
   
 .header-nav ul{
-    float: right;
+    /* float: right; */
+    display: flex;
+    justify-content: flex-end;
     margin-right: 20px;
     margin-top: 1px;
   }

@@ -11,7 +11,7 @@
     font-size: 10px;
 }
 
-.img-contents {
+.card-content {
     background: white;
     width: 100%;
     max-width: 220px;
@@ -22,13 +22,13 @@
     width: 100%;
 }
 
-.rs99 {
+.price-slashed {
     text-decoration: line-through;
     color: gray;
     font-size: 0.8em;
 }
 
-.off {
+.discount-text {
     color: orange;
     font-size: 0.9em
 }

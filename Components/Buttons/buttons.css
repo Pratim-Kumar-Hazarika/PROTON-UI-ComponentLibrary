@@ -85,13 +85,13 @@
 }
 
 .btn-light {
-    color: #212529;
+    color: var(--bg-btnlight);
     background-color: #e2e6ea;
     border-color: #dae0e5;
 }
 
 .btn-light:hover {
-    color: #212529;
+    color: var(--bg-btnlight);
     background-color: #d7e5f3;
     border-color: #dae0e5;
 }

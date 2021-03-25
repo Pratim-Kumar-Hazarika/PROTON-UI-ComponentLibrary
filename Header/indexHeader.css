@@ -59,7 +59,8 @@ header {
 }
 
 .main-content-header {
-    width: 1180px;
+    max-width: 80%;
+    margin: 0 auto;
     position: absolute;
     top: 55%;
     left: 50%;
