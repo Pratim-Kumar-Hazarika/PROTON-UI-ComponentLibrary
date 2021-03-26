@@ -200,7 +200,7 @@ main {
     .alert {
         max-width: 50%;
     }
-    
+
 }
 
 @media (max-width: 952px) {
@@ -213,7 +213,11 @@ main {
     .checkbtn {
         display: block;
         /* border:1px solid white; */
-      
+
+    }
+
+    .header-nav ul {
+        display: none;
     }
 
     .header-nav ul {
@@ -228,17 +232,18 @@ main {
         margin-top: 2px;
     }
 
+
+
     .header-nav ul li {
-        /* display: none; */
-        
         margin: 50px 0;
         line-height: 30px;
-        
+        display: block;
     }
 
     .header-nav ul li a {
         font-size: 20px;
-        
+        display: block;
+
     }
 
     .header-nav>a:hover,
@@ -284,6 +289,7 @@ main {
         margin-left: 10px;
         margin-top: 10px;
         width: 2rem;
+        display: none;
     }
 }
 
