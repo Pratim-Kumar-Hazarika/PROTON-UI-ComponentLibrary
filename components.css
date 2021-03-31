@@ -311,7 +311,7 @@ main {
 .button-contents,
 .image-contents,
 .badge-contents,
-.list-contents {
+.list-contents ,.different-card-div{
     border: 0.7px solid var(--bg-whitesmoke);
     padding: 1rem;
     background-color: var(--bg-primary-gray);
