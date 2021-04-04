@@ -11,7 +11,6 @@
     background-color: rgba(0, 0, 0, 0.4);
     color: whitesmoke;
 }
-
 .modal-content {
     background-color: black;
     margin: 15% auto;
@@ -19,21 +18,18 @@
     border: 1px solid #888;
     width: 80%;
 }
-
 .close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
-
 .close:hover,
 .close:focus {
     color: #ff7eee;
     text-decoration: none;
     cursor: pointer;
 }
-
 .btn-model {
     padding: 1rem;
     font-size: 15px;
@@ -42,7 +38,6 @@
     font-weight: bold;
     border-radius: 10px;
 }
-
 .btn-model:hover {
     background-color: #ff7eee;
 }

@@ -4,7 +4,6 @@
     transition: width 600ms ease;
     overflow: scroll;
 }
-
 .navbar-nav {
     list-style: none;
     padding: 0;
@@ -14,15 +13,12 @@
     align-items: center;
     height: 100%;
 }
-
 .nav-item {
     width: 100%;
 }
-
 .nav-item:last-child {
     margin-top: auto;
 }
-
 .nav-link {
     display: flex;
     align-items: center;
@@ -32,20 +28,17 @@
     filter: grayscale(100%) opacity(0.7);
     transition: var(--transition-speed);
 }
-
 .nav-link:hover {
     filter: grayscale(0%) opacity(1);
     background: var(--bg-secondary);
     color: var(--text-secondary);
 }
-
 .link-text {
     display: none;
     margin-left: 1rem;
     font-size: 1.2rem;
     top: 25px;
 }
-
 .nav-link svg {
     width: 2rem;
     min-width: 2rem;

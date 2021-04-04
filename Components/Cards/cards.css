@@ -3,14 +3,12 @@
     display: flex;
     flex-wrap: wrap;
 }
-
 .cart {
     margin: 1rem;
     padding: 1rem;
     max-width: 100%;
     font-size: 10px;
 }
-
 .card-content {
     padding:0.5rem;
     background: white;
@@ -19,22 +17,18 @@
     color: black;
     border: 1px solid rgb(243, 242, 242);
 }
-
 .img-size {
     width: 100%;
 }
-
 .price-slashed {
     text-decoration: line-through;
     color: gray;
     font-size: 0.8em;
 }
-
 .discount-text {
     color: orange;
     font-size: 0.9em
 }
-
 .add-to-chart-btn {
     background-color: pink;
     color: white;
@@ -83,7 +77,6 @@
     font-size: 1rem;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
-
 }
 .decrement-quantity-btn,.increment-quantity-btn{
     background-color: pink;
@@ -102,4 +95,3 @@
     font-size:1.3rem;
     margin-top:0.2rem
 }
-

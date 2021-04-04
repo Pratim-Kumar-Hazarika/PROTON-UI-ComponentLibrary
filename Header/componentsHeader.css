@@ -1,12 +1,13 @@
  /* header */
-
- 
  .header-nav{
-    background: black;
+    background: rgb(0, 0, 0);
     height: 80px;
-    width: 100%;
+    width:100%;
+    position: fixed;
+    top:0;
+    right: 0;
+    z-index: 0;
   }
-  
 .header-nav ul{
     /* float: right; */
     display: flex;
@@ -43,4 +44,3 @@
   #check{
     display: none;
   }
-  
