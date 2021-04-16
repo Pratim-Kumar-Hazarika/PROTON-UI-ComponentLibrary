@@ -1,0 +1,74 @@
+body{
+    margin:0
+}
+.container{
+    margin: auto;
+    width: 80%;
+    font-family: 'Open Sans'
+}
+.fa{
+    color: black;
+    font-size:3rem !important;
+
+}
+
+header {
+    height: 10vh;
+    background-color:black;
+    overflow: hidden;
+}
+
+
+.main-nav {
+    float: right;
+    margin-top: 30px;
+    margin-right: 1rem;
+}
+.main-nav li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a {
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 800;
+    font-family:"Open Sans";
+  
+}
+.main-nav li a:hover {
+    border-bottom: 2px solid #ff7EEE;
+}
+
+
+
+.proton-ui {
+    animation: App-logo-spin infinite 3s linear;
+}
+.logo {
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-left: 1rem;
+}
+@keyframes App-logo-spin {
+    form {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+    0% {
+        color: red;
+    }
+    25% {
+        color: #ff7EEE;
+    }
+    50% {
+        color: purple;
+    }
+    100% {
+        color:pink
+    }
+}
