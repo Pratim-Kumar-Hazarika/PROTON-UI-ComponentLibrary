@@ -1,10 +1,16 @@
+
+/* Icons-color */
+.fa-primary {
+    color: var(--bg-black);
+}
+.fa-primary{
+    transition: var(--transition-speed);
+}
 .navbar {
     position: fixed;
     transition: width 600ms ease;
     overflow: scroll;
     background-color: white;
-
-
 }
 
 .navbar-nav {
@@ -38,7 +44,7 @@
 .nav-link:hover {
     filter: grayscale(0%) opacity(1);
     background: var(--bg-secondary);
-    color: var(--text-secondary);
+    color: var(--bg-pink);
 }
 
 .link-text {

@@ -1,10 +1,4 @@
-/* Icons-color */
-.fa-primary {
-    color: var(--bg-pink);
-}
-.fa-primary{
-    transition: var(--transition-speed);
-}
+
 /* Top-Left-Logo */
 .logo {
     font-weight: bold;
