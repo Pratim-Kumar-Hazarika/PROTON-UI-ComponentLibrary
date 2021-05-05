@@ -39,3 +39,10 @@
     width: 20px;
     text-align: center;
 }
+.iconifyIcons{
+    font-size:40px
+}
+.iconify_icon_div{
+    display:flex;
+    justify-content: space-around
+}
