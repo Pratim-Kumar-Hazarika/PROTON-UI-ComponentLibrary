@@ -1,0 +1,97 @@
+/* cards */
+.cart-versions {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cart {
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 100%;
+    font-size: 10px;
+}
+.card-content {
+    padding:0.5rem;
+    background: white;
+    width: 100%;
+    max-width: 220px;
+    color: black;
+    border: 1px solid rgb(243, 242, 242);
+}
+.img-size {
+    width: 100%;
+}
+.price-slashed {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 0.8em;
+}
+.discount-text {
+    color: orange;
+    font-size: 0.9em
+}
+.add-to-chart-btn {
+    background-color: pink;
+    color: white;
+    border: 0px;
+    padding: 0.5rem;
+    cursor: pointer;
+    align-self: center;
+    border: 0;
+    border-radius: 9px;
+}
+/* diffrent types of card */
+.different-card-div{
+    display:flex;
+    flex-wrap: wrap;
+}
+.typesof-card-content {
+    padding:0.5rem;
+    background: white;
+    width: 100%;
+    max-width: 220px;
+    color: black;
+    border: 1px solid rgb(243, 242, 242);
+    position: relative;
+}
+.wish-btn{
+    background-color: pink;
+    background-color: pink;
+    color: white;
+    border: 0px;
+    padding: 0.5rem;
+    cursor: pointer;
+    align-self: center;
+    border: 0;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    right:0
+}
+.card-trending-tag{
+    position: absolute;
+    top:0;
+    margin-top: 4rem;
+    background-color: pink;
+    background-color: pink;
+    color: white;
+    font-size: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.decrement-quantity-btn,.increment-quantity-btn{
+    background-color: pink;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 9px; 
+    font-size: 0.3rem;
+}
+.card-icon-btn{
+    display: flex;
+    justify-content: space-between;
+}
+.card-quantity-number{
+    font-size:1.3rem;
+    margin-top:0.2rem
+}

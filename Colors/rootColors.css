@@ -1,0 +1,40 @@
+:root {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    --bg-primary: black;
+    --bg-pink: #ff7eee;
+    --bg-white: white;
+    --bg-background: #bf55ec;
+    --bg-red: red;
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-secondary: #141418;
+    --transition-speed: 600ms;
+    --bg-primary-gray: #23232e;
+    --bg-whitesmoke: whitesmoke;
+    --bg-primarycolor: #004085;
+    --bg-primarybgcolor: #cce5ff;
+    --bg-primaryborder: #b8daff;
+    --bg-secondarycolor: #383d41;
+    --bg-secondarybgcolor: #e2e3e5;
+    --bg-secondaryborder: #d6d8db;
+    --bg-successcolor: #155724;
+    --bg-successbgcolor: #d4edda;
+    --bg-successborder: #c3e6cb;
+    --bg-dangercolor: #721c24;
+    --bg-dangerbgcolor: #f8d7da;
+    --bg-dangerborder: #f5c6cb;
+    --bg-warningcolor: #856404;
+    --bg-warningbgcolor: #fff3cd; ;
+    --bg-warningborder: #ffeeba;
+    --bginfocolor: #0c5460;
+    --bginfobgcolor: #d1ecf1;
+    --bginfoborder: #bee5eb;
+    --bglightcolor: #818182;
+    --bglightbgcolor: #fefefe;
+    --bglightborder: #fdfdfe;
+    --bgdarkcolor: #1b1e21;
+    --bgdarkbgcolor: #d6d8d9;
+    --bgdarkborder: #c6c8ca;
+    --bg-btnlight: #212529
+}

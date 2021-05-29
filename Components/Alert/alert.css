@@ -1,0 +1,55 @@
+.alert {
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    max-width: 951px;
+}
+
+.alert-primary {
+    color: var(--bg-primarycolor);
+    background-color: var(--bg-primarybgcolor);
+    border-color: var(--bg-primaryborder);
+}
+
+.alert-secondary {
+    color: var(--bg-secondarycolor);
+    background-color: var(--bg-secondarybgcolor);
+    border-color: var(--bg-secondarborder);
+}
+
+.alert-success {
+    color: var(--bg-successcolor);
+    background-color: var(--bg-successbgcolor);
+    border-color: var(--bg-successborder);
+}
+
+.alert-danger {
+    color: var(--bg-dangercolor);
+    background-color: var(--bg-dangerbgcolor);
+    border-color: var(--bg--dangerborder);
+}
+
+.alert-warning {
+    color: var(--bg-warningcolor);
+    background-color: var(--bg-warningbgcolor);
+    border-color: var(--bg-warningborder);
+}
+
+.alert-info {
+    color: var(--bginfocolor);
+    background-color: var(--bginfobgcolor);
+    border-color: var(--bginfoborder);
+}
+
+.alert-light {
+    color: var(--bglightcolor);
+    background-color: var(--bglightbgcolor);
+    border-color: var(--bglightborder);
+}
+
+.alert-dark {
+    color: var(--bgdarkcolor);
+    background-color: var(--bgdarkbgcolor);
+    border-color: var(--bgdarkborder);
+}

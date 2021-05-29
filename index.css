@@ -1,0 +1,21 @@
+@import url('../Footer/footer.css');
+@import url('../MediaQueries/colorChange.css');
+@import url('../MediaQueries/rotateProtonUi.css');
+@import url('../Header/indexHeader.css');
+@import url('../MediaQueries/indexPageMediaQueries.css');
+@import url('../Colors/rootColors.css');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-size: 20px;
+    overflow-x: hidden;
+    font-family: 'Open Sans';
+}
+
+
+
+
+

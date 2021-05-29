@@ -1,0 +1,250 @@
+@import url('../Components/Avatar/avatar.css');
+@import url('../Components/Alert/alert.css');
+@import url('../Components/Buttons/buttons.css');
+@import url('../Components/Images/images.css');
+@import url('../Components/Lists/list.css');
+@import url('../Components/Model/model.css');
+@import url('../Components/Badge/badge.css');
+@import url('../Components/Cards/cards.css');
+@import url('../NavbarLeft/navbar.css');
+@import url('../MediaQueries/colorchange.css');
+@import url('../Header/componentsHeader.css');
+@import url('../Colors/rootColors.css');
+@import url('../Icons/icons.css');
+body {
+    margin: 0;
+    padding: 0;
+}
+main {
+    margin-left: 5rem;
+    padding: 1rem;
+}
+/* Small screens */
+@media only screen and (max-width: 600px) {
+    .floating-btn {
+        display: inline;
+        margin-right: 20px;
+    }
+    .navbar {
+        bottom: 0;
+        width: 100vw;
+        height: 5rem;
+        overflow-y: hidden;
+        overflow-x: visible;
+    }
+    .logo {
+        display: none;
+    }
+    .navbar-nav {
+        flex-direction: row;
+        z-index: -1;
+    }
+    .nav-link {
+        justify-content: center;
+    }
+    main {
+        margin: 0;
+        margin-top: 3rem;
+    }
+    .btn {
+        margin: 10px
+    }
+    .avatar1 {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .avatar2 {
+        max-width: 50px;
+        max-height: 50px;
+    }
+    .avatar3 {
+        max-width: 25px;
+        max-height: 25px;
+    }
+    .avatar4 {
+        max-width: 10px;
+        max-height: 10px;
+    }
+    .iframe-style {
+        max-width: 100%;
+        width: 100px;
+    }
+    .button.jsx-3164858522 {
+        margin-right: 30px;
+    }
+    .round-img {
+        max-height: 250px;
+        max-width: 250px;
+        margin-left: 30px;
+    }
+    .bd-example>h1 {
+        font-size: 30px
+    }
+    .un-or-list {
+        display: flex;
+        font-size: 10px;
+        margin-left: 10px
+    }
+    .user-follow {
+        font-size: 10px;
+    }
+    .card-contents {
+        height: 250vh;
+    }
+    .list-group {
+        margin-left: -35px;
+    }
+    .modal-content {
+        width: 60%;
+        margin-left: 20px;
+    }
+}
+/* Large screens */
+@media only screen and (min-width: 600px) {
+    .floating-btn {
+        display: none;
+    }
+    .navbar {
+        top: 0;
+        width: 13rem;
+        height: 100vh;
+        overflow-y: hidden;
+    }
+    .card-contents {
+        height: 75vh;
+    }
+    .navbar::-webkit-scrollbar {
+        width: 0.2rem;
+    }
+    .navbar::-webkit-scrollbar-track {
+        background: #050505;
+    }
+    .navbar::-webkit-scrollbar-thumb {
+        background: whitesmoke;
+    }
+    .navbar .link-text {
+        display: inline;
+    }
+    .navbar .logo-text {
+        left: 0px;
+    }
+    .navbar:hover {
+        width: 15rem;
+        overflow-y: scroll
+    }
+    .navbar .logo svg {
+        margin-left: 11rem;
+    }
+    .navbar:hover .link-text {
+        display: inline;
+    }
+    .stacked-list {
+        max-width: 40%;
+    }
+    .navbar:hover .logo-text {
+        left: 0px;
+    }
+    main {
+        margin-left: 225px;
+        margin-top: 3.7rem;
+
+    }
+    .alert {
+        max-width: 50%;
+    }
+}
+@media (max-width: 952px) {
+    .header-nav ul li a {
+        font-size: 16px;
+    }
+}
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+    .header-nav ul {
+        display: none;
+    }
+    .header-nav ul {
+        position: fixed;
+        width: 100%;
+        height: 50vh;
+        background: black;
+        top: 80px;
+        text-align: center;
+        transition: all .5s;
+        top: 78px;
+        margin-top: 2px;
+    }
+    .header-nav ul li {
+        margin: 50px 0;
+        line-height: 30px;
+        display: block;
+    }
+    .header-nav ul li a {
+        font-size: 20px;
+        display: block;
+    }
+    .header-nav>a:hover,
+    a.active {
+        background: none;
+        color: #ff7eee;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+    .right-bar {
+        margin-top: 1px;
+    }
+    .right-bar:hover {
+        color: #ff7eee;
+    }
+}
+/* keyfrmane for right-button-content */
+@media only screen and (max-width: 858px) {
+    .main-nav {
+        display: none;
+    }
+    .right-icon {
+        display: inline-block;
+        color: #fff;
+        margin-top: 10px;
+        margin-right: 1px;
+    }
+    .main-nav {
+        float: left;
+    }
+    .main-nav li {
+        display: block;
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 2rem;
+        display: none;
+    }
+}
+/* iframe-style */
+.iframe-style {
+    width: 100%;
+    border: 0;
+    height: auto;
+    overflow-y: 0;
+    overflow: hidden;
+   
+}
+/* All Div Borders */
+.model-contents,
+.card-all-versions,
+.avatar-contents,
+.alert-contents,
+.button-contents,
+.image-contents,
+.badge-contents,
+.list-contents ,.different-card-div{
+    border: 0.7px solid var(--bg-whitesmoke);
+    padding: 1rem;
+    color: black;
+}
+
+hr {
+    border: 0.1px solid var(--bg-whitesmoke);
+}

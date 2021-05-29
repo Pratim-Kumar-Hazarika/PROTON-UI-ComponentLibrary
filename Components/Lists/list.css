@@ -1,0 +1,26 @@
+/* Lists */
+.un-or-list {
+    display: flex;
+    font-size: 20px;
+}
+.un-or-list p {
+    margin-right: 10px;
+}
+/* inline-list */
+.inline-list>ul>li {
+    display: inline;
+}
+/* stacked-list */
+.stacked-list {
+    display: block;
+    padding: .5rem 1rem;
+    color: #212529;
+    text-decoration: none;
+    background-color: rgb(241, 238, 238);
+    border: 1px solid rgba(116, 104, 104, 0.125);
+}
+.stacked-list.active-list {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: white;
+}
